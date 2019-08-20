@@ -1,7 +1,9 @@
 import React from "react";
-import "./styles/Person.css";
+
+import "./Person.css";
 
 const Person = props => {
+  console.log("[Person.js] rendering...");
   return (
     <div className="Person">
       <p onClick={props.click}>
